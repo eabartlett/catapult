@@ -17,8 +17,11 @@ I used the basic CRUD that was suggested [here](https://gist.github.com/dradford
 ## Regarding Conventions and Best Practices
 Given more time to look into how to do things in ruby/rails there are a couple things I would have enjoyed changing:
 1. Proper Serializers for each of the model types (breed, tag, stats)
+
 ⋅⋅⋅ I'd prefer to have mixed in Serializers for each type rather than conversion functions that return hashes to be returned
 2. Testing
+
 ⋅⋅⋅⋅ I would have liked to write legitimate unit tests for each method within the controllers, but given the timing I felt that integration-like tests are more important for ensuring functionality
 3. Style
+
 ⋅⋅⋅⋅ I have no idea if this is written in correct rails/ruby style. Gladly I know that rails somewhat forces the programmer to follow a given directory structure.
